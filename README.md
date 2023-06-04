@@ -17,6 +17,7 @@
 ### Features
 
 - User login and authentication to store customer and clinic credentials.
-- Allows customers to view opening hours, wait times, clinic services, and costs.
+- Allows customers to search for walk-in clinics nearby.
+- Walk-in clinic profiles to display opening hours, wait times, clinic services, and costs.
 - Allows customers to book a time slot for a service to be performed.
 
