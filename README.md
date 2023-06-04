@@ -21,3 +21,11 @@
 - Walk-in clinic profiles to display opening hours, wait times, clinic services, and costs.
 - Allows customers to book a time slot for a service to be performed.
 
+
+### Screens
+
+<p float="left">
+  <img src="Screenshots/MainScreen.png" width="100" />
+  <img src="Screenshots/AdminPage.png" width="100" />
+  <img src="Screenshots/UserRegistration.png" width="100" />
+</p>
