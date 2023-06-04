@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.seg2105project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Walk in Clinics Services App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".BookAppointmentActivity"></activity>
+        <activity android:name=".ViewClinicActivity" />
+        <activity android:name=".ClinicList" />
+        <activity android:name=".AddServiceActivity" />
+        <activity android:name=".ChangeTimeActivity" />
+        <activity android:name=".ViewClinicServicesActivity" />
+        <activity android:name=".EmployeeCompleteAccActivity" />
+        <activity android:name=".ManageAccountsActivity" />
+        <activity android:name=".ManageServicesActivity" />
+        <activity android:name=".PatientMainActivity" />
+        <activity android:name=".EmployeeMainActivity" />
+        <activity android:name=".AdminMainActivity" />
+        <activity android:name=".createAccountActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

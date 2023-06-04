@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Select a search criteria" />
+
+    <RadioGroup
+        android:id="@+id/rGCriteria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/rBtnAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <RadioButton
+            android:id="@+id/rBtnWorkingHours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hours" />
+
+        <RadioButton
+            android:id="@+id/rBtnServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service" />
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/eTSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Search"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@android:string/cancel"
+            android:textColor="#009688" />
+
+        <Button
+            android:id="@+id/btnConfirmSearch"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@android:string/search_go"
+            android:textColor="#009688" />
+    </LinearLayout>
+</LinearLayout>
