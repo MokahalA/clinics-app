@@ -25,7 +25,19 @@
 ### Screens
 
 <p float="left">
-  <img src="Screenshots/MainScreen.png" width="100" />
-  <img src="Screenshots/AdminPage.png" width="100" />
-  <img src="Screenshots/UserRegistration.png" width="100" />
+  <img src="Screenshots/MainScreen.png" width="200" />
+  <img src="Screenshots/AdminPage.png" width="200" />
+  <img src="Screenshots/UserRegistration.png" width="200" />
+</p>
+
+<p float="left">
+  <img src="Screenshots/EmployeeRegistration.png" width="200" />
+  <img src="Screenshots/EmployeeMainActivity.png" width="200" />
+  <img src="Screenshots/EmployeePage.png" width="200" />
+</p>
+
+<p float="left">
+  <img src="Screenshots/PatientPage.png" width="200" />
+  <img src="Screenshots/ManageAccounts.png" width="200" />
+  <img src="Screenshots/ManageServices.png" width="200" />
 </p>
