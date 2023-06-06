@@ -1,6 +1,6 @@
 <div align="center">
 
-# HeyChat
+# Walk-in Clinics App
 
 ### Android mobile application for walk-in clinics to display services, wait times, and provide a booking system for their customers.
 
